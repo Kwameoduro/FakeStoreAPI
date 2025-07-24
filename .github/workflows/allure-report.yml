@@ -1,5 +1,5 @@
-#  CI Pipeline for SwagLabs Selenium Tests
-name: XYZ Bank Test Automation
+#  CI Pipeline for Fakestore API Tests
+name: Test Automation for FakeStore
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    name: Run XYZ Bank Selenium Tests
+    name: Run FakeStore API test
     runs-on: ubuntu-latest
 
     steps:
@@ -45,7 +45,7 @@ jobs:
           mvn clean
           mvn compile test-compile
 
-      - name:  Run XYZ Bank Tests
+      - name:  Run FakeStore API test
         run: mvn test -Dheadless=true
         env:
           CHROME_OPTIONS: --headless --no-sandbox --disable-dev-shm-usage --window-size=1920,1080
