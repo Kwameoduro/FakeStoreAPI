@@ -16,7 +16,7 @@ This project was created to:
 ---
 
 ## Tech Stack
-- **Java 17**
+- **Java 21+**
 - **REST Assured** (API testing)
 - **JUnit 5** (test framework)
 - **Allure Reports** (reporting)
