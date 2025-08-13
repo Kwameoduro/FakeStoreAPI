@@ -1,4 +1,4 @@
-# FakeStoreAPI Automation Testing (With REST Assured)
+# FakeStoreAPI Automation Testing (With REST Assured).
 
 Automated API testing project for the [FakeStoreAPI](https://fakestoreapi.com/docs#tag/Users) **Users** endpoints using **REST Assured**, **JUnit 5**, and **GitHub Actions CI**.  
 The project focuses solely on verifying CRUD operations for Users, following best practices in API test automation.
